@@ -15,12 +15,7 @@ export default function Card(props) {
                 <th>valor</th>
               </tr>
             </thead>
-            <tbody>
-              <tr>
-                <td>id</td>
-                <td>25</td>
-              </tr>
-            </tbody>
+            <tbody>{props.tabla}</tbody>
           </table>
         </div>
       </div>
