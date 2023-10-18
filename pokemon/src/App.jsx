@@ -10,7 +10,7 @@ function App() {
     <>
       <main>
         <Buscador></Buscador>
-        <Card imagen={data.sprites.other.home.front_default}></Card>
+        <Card imagen={data?.sprites.other.home.front_default} src={data.name} />
       </main>
     </>
   );

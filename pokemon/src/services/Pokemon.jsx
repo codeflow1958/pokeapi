@@ -5,9 +5,9 @@ function Pokemon() {
 
   useEffect(() => {
     const getData = async () => {
-      const res = await fetch(" ");
-      const data = await res.json();
-      setData(data);
+      const res = await fetch(`https://pokeapi.co/api/v2/${pokemon}/`);
+      const datos = await res.json();
+      setData(datos);
     };
 
     getData();
